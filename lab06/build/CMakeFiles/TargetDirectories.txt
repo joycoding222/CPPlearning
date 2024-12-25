@@ -1,0 +1,6 @@
+/home/zhang/clang/myCPP/lab06/build/CMakeFiles/Swap_number.dir
+/home/zhang/clang/myCPP/lab06/build/CMakeFiles/edit_cache.dir
+/home/zhang/clang/myCPP/lab06/build/CMakeFiles/rebuild_cache.dir
+/home/zhang/clang/myCPP/lab06/build/lib/CMakeFiles/swap.dir
+/home/zhang/clang/myCPP/lab06/build/lib/CMakeFiles/edit_cache.dir
+/home/zhang/clang/myCPP/lab06/build/lib/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Swap_number.dir/exercise02.cpp.o -o Swap_number  lib/libswap.a 
