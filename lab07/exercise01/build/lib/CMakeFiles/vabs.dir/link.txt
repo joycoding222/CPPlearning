@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libvabs.so -o libvabs.so CMakeFiles/vabs.dir/vabs.cpp.o 

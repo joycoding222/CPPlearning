@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/calculatevabs.dir/exercise01.cpp.o -o calculatevabs  -Wl,-rpath,/home/zhang/clang/myCPP/lab07/exercise01/build/lib lib/libvabs.so 
