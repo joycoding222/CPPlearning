@@ -1,0 +1,3 @@
+/home/zhang/clang/myCPP/lab08/build/CMakeFiles/vectoradd.dir
+/home/zhang/clang/myCPP/lab08/build/CMakeFiles/edit_cache.dir
+/home/zhang/clang/myCPP/lab08/build/CMakeFiles/rebuild_cache.dir
