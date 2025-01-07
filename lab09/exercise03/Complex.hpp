@@ -31,5 +31,5 @@ public:
     }
 
     void subtract(Complex a, Complex b);
-    void display(Complex a);
+    void display(Complex a) const;
 };

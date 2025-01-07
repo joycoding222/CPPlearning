@@ -7,7 +7,9 @@ void Complex::subtract(Complex a, Complex b)
     cout << "subtract = " << realPart << " + " << imaginaryPart << "*i" << endl;
 }
 
-void Complex::display(Complex a) const 
+void Complex::display(Complex a) const
 {
     cout << "display of the complex number: " << a.realPart << "+" << a.imaginaryPart << "i" << endl;
 }
+
+
