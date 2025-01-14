@@ -15,10 +15,10 @@ int main()
     Matrix matC = matA + matB; 
     // 第一次这里报错，因为copy constructor 有问题，犯了课程中的经典错误，两个指针指向同一块内存，用hard copy 解决
     cout << "c is :" << endl << matC << endl;
-    Matrix matD = matA;
+    Matrix matD = matA; // copy constructor
     // 这里开始打印的值和matA 一样，因为在重载+时，改变了this 对象的值
     cout << "Before assignment, d is :" << endl << matD << endl;
-    matD = matB;
+    matD = matB; // copy assignment operator
     cout << "After  assignment, d is :" << endl << matD << endl;
 
     return 0;

@@ -61,15 +61,13 @@ public:
     // 重载<<
     friend std::ostream &operator<<(std::ostream &os, const Matrix &mat)
     {
-        int each_row = 0;
+        int numberPerline = 4;
         for (int i = 0; i < mat.num; i++)
         {
             os << mat.data[i] << " ";
-            each_row++;
-            if (each_row == 4)
+            if (i % numberPerline == 3)
             {
                 cout << endl;
-                each_row = 0;
             }
         }
         return os;
