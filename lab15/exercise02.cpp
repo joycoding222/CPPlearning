@@ -32,6 +32,7 @@ bool operator==(const Base &a, const Base &b)
         a.equal(b); // equal()是一个虚函数，根据传入对象的实际类型调用相应的成员函数
     else
         throw "The two objects have different types, they can not be compare.";
+        return false;
 };
 
 bool Base::equal(const Base &b) const
