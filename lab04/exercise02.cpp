@@ -8,7 +8,7 @@
  int main()
  {
     union data a;
-    printf("%d, %d\n", sizeof(a), sizeof(union data) ); //union公用内存，内存大小为最大的数据，所以两个输出都是4字节
+    printf("%ld, %ld\n", sizeof(a), sizeof(union data) ); //union公用内存，内存大小为最大的数据，所以两个输出都是4字节
 
     a.n= 0x40;
     printf("%X, %c, %hX\n", a.n, a.ch, a.m);    //%X全部使用大写字母来打印十六进制数
